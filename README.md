@@ -12,10 +12,12 @@ All studies in this repository come from the **ReMIND** collection on The Cancer
 Archive (TCIA) and are redistributed under the
 [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-Changes made: only the pre-operative MRI study of each case is included; files were
-renamed and grouped into one folder per series; `study.json` was generated from the
-DICOM headers. Pixel data and DICOM headers are unchanged. The images were de-identified
-and defaced by the original authors.
+**Images modified (de-identified and re-indexed).** The images were de-identified and
+defaced by the original authors. For this repository they were changed further: only the
+pre-operative MRI study of each case is included; patient name/ID, all instance UIDs and
+all dates in the DICOM headers were replaced; private and clinical-trial tags were
+removed; files were renamed and grouped into one folder per series; `study.json` was
+generated from the headers. Pixel data is unchanged.
 
 Data citation:
 
